@@ -1,0 +1,14 @@
+Testsuite: main.java.prog1.P03_OnceUponATimeTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0,255 sec
+
+Testcase: testOutput took 0,035 sec
+	FAILED
+expected:<[Once upon a time
+there was
+a program]> but was:<[]>
+junit.framework.AssertionFailedError: expected:<[Once upon a time
+there was
+a program]> but was:<[]>
+	at main.java.prog1.P03_OnceUponATimeTest.testOutput(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

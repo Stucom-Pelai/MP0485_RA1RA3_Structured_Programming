@@ -1,0 +1,36 @@
+Testsuite: main.java.prog2.P46_IndexWasNotFoundTest
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0,265 sec
+
+Testcase: testValueNotFound took 0,051 sec
+	FAILED
+Expected output to contain '99 was not found.' but was:
+Search for? 
+junit.framework.AssertionFailedError: Expected output to contain '99 was not found.' but was:
+Search for? 
+	at main.java.prog2.P46_IndexWasNotFoundTest.testValueNotFound(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testValueFoundAtIndex2 took 0,006 sec
+	FAILED
+Expected output to contain '8 is at index 2.' but was:
+Search for? 
+junit.framework.AssertionFailedError: Expected output to contain '8 is at index 2.' but was:
+Search for? 
+	at main.java.prog2.P46_IndexWasNotFoundTest.testValueFoundAtIndex2(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testValueFoundAtIndex6 took 0,005 sec
+	FAILED
+Expected output to contain '9 is at index 6.' but was:
+Search for? 
+junit.framework.AssertionFailedError: Expected output to contain '9 is at index 6.' but was:
+Search for? 
+	at main.java.prog2.P46_IndexWasNotFoundTest.testValueFoundAtIndex6(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+

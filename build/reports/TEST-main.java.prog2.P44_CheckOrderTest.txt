@@ -1,0 +1,39 @@
+Testsuite: main.java.prog2.P44_CheckOrderTest
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0,242 sec
+
+Testcase: testAllEqual took 0,034 sec
+	FAILED
+Expected: "All numbers are equal.", but got: ""
+junit.framework.AssertionFailedError: Expected: "All numbers are equal.", but got: ""
+	at main.java.prog2.P44_CheckOrderTest.testAllEqual(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testUnorderedSequence took 0,006 sec
+	FAILED
+Expected: "Unordered sequence.", but got: ""
+junit.framework.AssertionFailedError: Expected: "Unordered sequence.", but got: ""
+	at main.java.prog2.P44_CheckOrderTest.testUnorderedSequence(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testIncreasingSequence took 0,005 sec
+	FAILED
+Expected: "Increasing sequence.", but got: ""
+junit.framework.AssertionFailedError: Expected: "Increasing sequence.", but got: ""
+	at main.java.prog2.P44_CheckOrderTest.testIncreasingSequence(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testDecreasingSequence took 0,004 sec
+	FAILED
+Expected: "Decreasing sequence.", but got: ""
+junit.framework.AssertionFailedError: Expected: "Decreasing sequence.", but got: ""
+	at main.java.prog2.P44_CheckOrderTest.testDecreasingSequence(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+

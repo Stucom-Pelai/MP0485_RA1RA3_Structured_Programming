@@ -1,0 +1,16 @@
+Testsuite: main.java.prog1.P36_IsDriverTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0,202 sec
+
+Testcase: testIsDriver took 0,039 sec
+	FAILED
+Failed for input:
+17
+true
+ expected:<[false]> but was:<[]>
+junit.framework.AssertionFailedError: Failed for input:
+17
+true
+ expected:<[false]> but was:<[]>
+	at main.java.prog1.P36_IsDriverTest.testIsDriver(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

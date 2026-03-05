@@ -1,0 +1,10 @@
+Testsuite: main.java.prog1.P41_MathDiscountTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0,282 sec
+
+Testcase: testDiscountOutput took 0,037 sec
+	FAILED
+Output should have 2 lines expected:<2> but was:<1>
+junit.framework.AssertionFailedError: Output should have 2 lines expected:<2> but was:<1>
+	at main.java.prog1.P41_MathDiscountTest.testDiscountOutput(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

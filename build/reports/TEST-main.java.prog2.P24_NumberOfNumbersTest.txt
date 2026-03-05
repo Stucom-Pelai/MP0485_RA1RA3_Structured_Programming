@@ -1,0 +1,16 @@
+Testsuite: main.java.prog2.P24_NumberOfNumbersTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0,225 sec
+
+Testcase: testNumberOfNumbers took 0,047 sec
+	FAILED
+Test case 1 (input '0'): Expected 'Give a number:
+Number of numbers: 0', but got '' expected:<[Give a number:
+Number of numbers: 0]> but was:<[]>
+junit.framework.AssertionFailedError: Test case 1 (input '0'): Expected 'Give a number:
+Number of numbers: 0', but got '' expected:<[Give a number:
+Number of numbers: 0]> but was:<[]>
+	at main.java.prog2.P24_NumberOfNumbersTest.testNumberOfNumbers(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+

@@ -1,0 +1,39 @@
+Testsuite: main.java.prog2.P14_LeapYearTest
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0,349 sec
+
+Testcase: testYearDivisibleBy400 took 0,066 sec
+	FAILED
+2000 is a leap year expected:<[Give a year: 
+The year is a leap year.]> but was:<[]>
+junit.framework.AssertionFailedError: 2000 is a leap year expected:<[Give a year: 
+The year is a leap year.]> but was:<[]>
+	at main.java.prog2.P14_LeapYearTest.testYearDivisibleBy400(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testYearDivisibleBy100ButNot400 took 0,003 sec
+	FAILED
+1900 is not a leap year expected:<[Give a year: 
+The year is not a leap year.]> but was:<[]>
+junit.framework.AssertionFailedError: 1900 is not a leap year expected:<[Give a year: 
+The year is not a leap year.]> but was:<[]>
+	at main.java.prog2.P14_LeapYearTest.testYearDivisibleBy100ButNot400(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testYearDivisibleBy4ButNot100 took 0,005 sec
+	FAILED
+2016 is a leap year expected:<[Give a year: 
+The year is a leap year.]> but was:<[]>
+junit.framework.AssertionFailedError: 2016 is a leap year expected:<[Give a year: 
+The year is a leap year.]> but was:<[]>
+	at main.java.prog2.P14_LeapYearTest.testYearDivisibleBy4ButNot100(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testYearNotDivisibleBy4 took 0,003 sec
+	FAILED
+2019 is not a leap year expected:<[Give a year: 
+The year is not a leap year.]> but was:<[]>
+junit.framework.AssertionFailedError: 2019 is not a leap year expected:<[Give a year: 
+The year is not a leap year.]> but was:<[]>
+	at main.java.prog2.P14_LeapYearTest.testYearNotDivisibleBy4(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

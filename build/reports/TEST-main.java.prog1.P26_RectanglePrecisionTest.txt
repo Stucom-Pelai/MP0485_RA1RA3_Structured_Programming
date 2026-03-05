@@ -1,0 +1,10 @@
+Testsuite: main.java.prog1.P26_RectanglePrecisionTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0,217 sec
+
+Testcase: testRectangleAreaWithPrecision took 0,033 sec
+	FAILED
+expected:<[12.00]> but was:<[]>
+junit.framework.AssertionFailedError: expected:<[12.00]> but was:<[]>
+	at main.java.prog1.P26_RectanglePrecisionTest.testRectangleAreaWithPrecision(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

@@ -1,0 +1,10 @@
+Testsuite: main.java.prog1.P31_Days2WeeksTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0,227 sec
+
+Testcase: testDaysToWeeks took 0,03 sec
+	FAILED
+Failed on input: 10 expected:<[1 weeks and 3 days]> but was:<[]>
+junit.framework.AssertionFailedError: Failed on input: 10 expected:<[1 weeks and 3 days]> but was:<[]>
+	at main.java.prog1.P31_Days2WeeksTest.testDaysToWeeks(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

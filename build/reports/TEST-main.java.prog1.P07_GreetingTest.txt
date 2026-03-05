@@ -1,0 +1,12 @@
+Testsuite: main.java.prog1.P07_GreetingTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0,292 sec
+
+Testcase: testGreetingOutput took 0,037 sec
+	FAILED
+expected:<[What's your name?
+Hi Ada]> but was:<[]>
+junit.framework.AssertionFailedError: expected:<[What's your name?
+Hi Ada]> but was:<[]>
+	at main.java.prog1.P07_GreetingTest.testGreetingOutput(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

@@ -1,0 +1,43 @@
+Testsuite: main.java.prog2.P38_AverageValuesTest
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0,269 sec
+
+Testcase: testStudent3Average took 0,04 sec
+	FAILED
+Expected output to contain: Student 3 average: 9,00
+junit.framework.AssertionFailedError: Expected output to contain: Student 3 average: 9,00
+	at main.java.prog2.P38_AverageValuesTest.runWithInputAndCheckOutput(Unknown Source)
+	at main.java.prog2.P38_AverageValuesTest.testStudent3Average(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testStudent1Average took 0,004 sec
+	FAILED
+Expected output to contain: Student 1 average: 5,00
+junit.framework.AssertionFailedError: Expected output to contain: Student 1 average: 5,00
+	at main.java.prog2.P38_AverageValuesTest.runWithInputAndCheckOutput(Unknown Source)
+	at main.java.prog2.P38_AverageValuesTest.testStudent1Average(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testAllStudentsCorrect took 0,005 sec
+	FAILED
+Expected output to contain: Student 1 average: 4,00
+junit.framework.AssertionFailedError: Expected output to contain: Student 1 average: 4,00
+	at main.java.prog2.P38_AverageValuesTest.runWithInputAndCheckOutput(Unknown Source)
+	at main.java.prog2.P38_AverageValuesTest.testAllStudentsCorrect(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testStudent2Average took 0,004 sec
+	FAILED
+Expected output to contain: Student 2 average: 7,00
+junit.framework.AssertionFailedError: Expected output to contain: Student 2 average: 7,00
+	at main.java.prog2.P38_AverageValuesTest.runWithInputAndCheckOutput(Unknown Source)
+	at main.java.prog2.P38_AverageValuesTest.testStudent2Average(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+

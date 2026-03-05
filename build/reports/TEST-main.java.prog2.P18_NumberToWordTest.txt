@@ -1,0 +1,27 @@
+Testsuite: main.java.prog2.P18_NumberToWordTest
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0,229 sec
+
+Testcase: testInvalidInputOverTen took 0,031 sec
+	FAILED
+Expected output not found in: 
+junit.framework.AssertionFailedError: Expected output not found in: 
+	at main.java.prog2.P18_NumberToWordTest.testOutput(Unknown Source)
+	at main.java.prog2.P18_NumberToWordTest.testInvalidInputOverTen(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testInvalidInputNegative took 0,002 sec
+	FAILED
+Expected output not found in: 
+junit.framework.AssertionFailedError: Expected output not found in: 
+	at main.java.prog2.P18_NumberToWordTest.testOutput(Unknown Source)
+	at main.java.prog2.P18_NumberToWordTest.testInvalidInputNegative(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testValidInputs took 0,002 sec
+	FAILED
+Expected output not found in: 
+junit.framework.AssertionFailedError: Expected output not found in: 
+	at main.java.prog2.P18_NumberToWordTest.testOutput(Unknown Source)
+	at main.java.prog2.P18_NumberToWordTest.testValidInputs(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

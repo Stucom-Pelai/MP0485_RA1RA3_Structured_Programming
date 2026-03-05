@@ -1,0 +1,87 @@
+Testsuite: main.java.prog2.P20_AccurateNextDateTest
+Tests run: 7, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 0,24 sec
+
+Testcase: testEndOfYear took 0,035 sec
+	FAILED
+Expected output not found.
+Expected: "1/1/2024"
+Actual: ""
+junit.framework.AssertionFailedError: Expected output not found.
+Expected: "1/1/2024"
+Actual: ""
+	at main.java.prog2.P20_AccurateNextDateTest.testOutput(Unknown Source)
+	at main.java.prog2.P20_AccurateNextDateTest.testEndOfYear(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testRegularDate took 0,002 sec
+	FAILED
+Expected output not found.
+Expected: "6/6/2023"
+Actual: ""
+junit.framework.AssertionFailedError: Expected output not found.
+Expected: "6/6/2023"
+Actual: ""
+	at main.java.prog2.P20_AccurateNextDateTest.testOutput(Unknown Source)
+	at main.java.prog2.P20_AccurateNextDateTest.testRegularDate(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testEndOfFebruaryLeapYear took 0,004 sec
+	FAILED
+Expected output not found.
+Expected: "1/3/2024"
+Actual: ""
+junit.framework.AssertionFailedError: Expected output not found.
+Expected: "1/3/2024"
+Actual: ""
+	at main.java.prog2.P20_AccurateNextDateTest.testOutput(Unknown Source)
+	at main.java.prog2.P20_AccurateNextDateTest.testEndOfFebruaryLeapYear(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testEndOfFebruaryNonLeapYear took 0,002 sec
+	FAILED
+Expected output not found.
+Expected: "1/3/2023"
+Actual: ""
+junit.framework.AssertionFailedError: Expected output not found.
+Expected: "1/3/2023"
+Actual: ""
+	at main.java.prog2.P20_AccurateNextDateTest.testOutput(Unknown Source)
+	at main.java.prog2.P20_AccurateNextDateTest.testEndOfFebruaryNonLeapYear(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testNegativeYearCorrection took 0,001 sec
+	FAILED
+Expected output not found.
+Expected: "1/1/1"
+Actual: ""
+junit.framework.AssertionFailedError: Expected output not found.
+Expected: "1/1/1"
+Actual: ""
+	at main.java.prog2.P20_AccurateNextDateTest.testOutput(Unknown Source)
+	at main.java.prog2.P20_AccurateNextDateTest.testNegativeYearCorrection(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testEndOfLongMonth took 0,001 sec
+	FAILED
+Expected output not found.
+Expected: "1/2/2023"
+Actual: ""
+junit.framework.AssertionFailedError: Expected output not found.
+Expected: "1/2/2023"
+Actual: ""
+	at main.java.prog2.P20_AccurateNextDateTest.testOutput(Unknown Source)
+	at main.java.prog2.P20_AccurateNextDateTest.testEndOfLongMonth(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testEndOfShortMonth took 0,002 sec
+	FAILED
+Expected output not found.
+Expected: "1/5/2023"
+Actual: ""
+junit.framework.AssertionFailedError: Expected output not found.
+Expected: "1/5/2023"
+Actual: ""
+	at main.java.prog2.P20_AccurateNextDateTest.testOutput(Unknown Source)
+	at main.java.prog2.P20_AccurateNextDateTest.testEndOfShortMonth(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

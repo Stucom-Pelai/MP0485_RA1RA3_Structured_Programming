@@ -1,0 +1,10 @@
+Testsuite: main.java.prog1.P29_Minutes2HoursTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0,194 sec
+
+Testcase: testConversion took 0,027 sec
+	FAILED
+Failed on input: 90 expected:<[1 hours and 30 minutes]> but was:<[]>
+junit.framework.AssertionFailedError: Failed on input: 90 expected:<[1 hours and 30 minutes]> but was:<[]>
+	at main.java.prog1.P29_Minutes2HoursTest.testConversion(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

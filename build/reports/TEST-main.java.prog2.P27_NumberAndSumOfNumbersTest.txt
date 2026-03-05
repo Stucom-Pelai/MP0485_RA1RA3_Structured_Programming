@@ -1,0 +1,51 @@
+Testsuite: main.java.prog2.P27_NumberAndSumOfNumbersTest
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0,259 sec
+
+Testcase: testNoNumbers took 0,048 sec
+	FAILED
+Expected number output not found. Output was:
+
+junit.framework.AssertionFailedError: Expected number output not found. Output was:
+
+	at main.java.prog2.P27_NumberAndSumOfNumbersTest.testOutput(Unknown Source)
+	at main.java.prog2.P27_NumberAndSumOfNumbersTest.testNoNumbers(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testMixedNumbers took 0,003 sec
+	FAILED
+Expected number output not found. Output was:
+
+junit.framework.AssertionFailedError: Expected number output not found. Output was:
+
+	at main.java.prog2.P27_NumberAndSumOfNumbersTest.testOutput(Unknown Source)
+	at main.java.prog2.P27_NumberAndSumOfNumbersTest.testMixedNumbers(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testPositiveNumbers took 0,003 sec
+	FAILED
+Expected number output not found. Output was:
+
+junit.framework.AssertionFailedError: Expected number output not found. Output was:
+
+	at main.java.prog2.P27_NumberAndSumOfNumbersTest.testOutput(Unknown Source)
+	at main.java.prog2.P27_NumberAndSumOfNumbersTest.testPositiveNumbers(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testNegativeNumbers took 0,003 sec
+	FAILED
+Expected number output not found. Output was:
+
+junit.framework.AssertionFailedError: Expected number output not found. Output was:
+
+	at main.java.prog2.P27_NumberAndSumOfNumbersTest.testOutput(Unknown Source)
+	at main.java.prog2.P27_NumberAndSumOfNumbersTest.testNegativeNumbers(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+

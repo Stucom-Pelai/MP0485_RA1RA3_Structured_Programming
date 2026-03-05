@@ -1,0 +1,10 @@
+Testsuite: main.java.prog1.P27_NumberPowTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0,206 sec
+
+Testcase: testPowerOutputs took 0,032 sec
+	FAILED
+Output mismatch for input: 2: array lengths differed, expected.length=3 actual.length=1; arrays first differed at element [0]; expected:<[4]> but was:<[]>
+junit.framework.AssertionFailedError: Output mismatch for input: 2: array lengths differed, expected.length=3 actual.length=1; arrays first differed at element [0]; expected:<[4]> but was:<[]>
+	at main.java.prog1.P27_NumberPowTest.testPowerOutputs(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

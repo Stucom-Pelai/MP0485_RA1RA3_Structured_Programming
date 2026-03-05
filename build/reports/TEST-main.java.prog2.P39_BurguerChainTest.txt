@@ -1,0 +1,40 @@
+Testsuite: main.java.prog2.P39_BurguerChainTest
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0,239 sec
+
+Testcase: testAllZeros took 0,035 sec
+	FAILED
+null
+junit.framework.AssertionFailedError
+	at main.java.prog2.P39_BurguerChainTest.testAllZeros(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testMaximumValues took 0,003 sec
+	FAILED
+null
+junit.framework.AssertionFailedError
+	at main.java.prog2.P39_BurguerChainTest.testMaximumValues(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testHeaderIsPrinted took 0,002 sec
+Testcase: testLowSalesAreFlagged took 0,002 sec
+	FAILED
+null
+junit.framework.AssertionFailedError
+	at main.java.prog2.P39_BurguerChainTest.testLowSalesAreFlagged(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testAllRestaurantTotalsPrinted took 0,003 sec
+	FAILED
+null
+junit.framework.AssertionFailedError
+	at main.java.prog2.P39_BurguerChainTest.testAllRestaurantTotalsPrinted(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+

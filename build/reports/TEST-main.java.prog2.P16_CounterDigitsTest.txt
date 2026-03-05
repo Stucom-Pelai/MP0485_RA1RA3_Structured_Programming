@@ -1,0 +1,66 @@
+Testsuite: main.java.prog2.P16_CounterDigitsTest
+Tests run: 7, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 0,244 sec
+
+Testcase: testOneDigit took 0,03 sec
+	FAILED
+Expected '1 digit' in output but got:
+
+junit.framework.AssertionFailedError: Expected '1 digit' in output but got:
+
+	at main.java.prog2.P16_CounterDigitsTest.testOneDigit(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testThreeDigits took 0,003 sec
+	FAILED
+Expected '3 digits' in output but got:
+
+junit.framework.AssertionFailedError: Expected '3 digits' in output but got:
+
+	at main.java.prog2.P16_CounterDigitsTest.testThreeDigits(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testFourDigits took 0,003 sec
+	FAILED
+Expected '4 digits' in output but got:
+
+junit.framework.AssertionFailedError: Expected '4 digits' in output but got:
+
+	at main.java.prog2.P16_CounterDigitsTest.testFourDigits(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testNumberOutOfRangeNegative took 0,002 sec
+	FAILED
+Expected 'Number out of range' in output but got:
+
+junit.framework.AssertionFailedError: Expected 'Number out of range' in output but got:
+
+	at main.java.prog2.P16_CounterDigitsTest.testNumberOutOfRangeNegative(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testTwoDigits took 0,002 sec
+	FAILED
+Expected '2 digits' in output but got:
+
+junit.framework.AssertionFailedError: Expected '2 digits' in output but got:
+
+	at main.java.prog2.P16_CounterDigitsTest.testTwoDigits(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testFiveDigits took 0,003 sec
+	FAILED
+Expected '5 digits' in output but got:
+
+junit.framework.AssertionFailedError: Expected '5 digits' in output but got:
+
+	at main.java.prog2.P16_CounterDigitsTest.testFiveDigits(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testNumberOutOfRangeTooBig took 0,002 sec
+	FAILED
+Expected 'Number out of range' in output but got:
+
+junit.framework.AssertionFailedError: Expected 'Number out of range' in output but got:
+
+	at main.java.prog2.P16_CounterDigitsTest.testNumberOutOfRangeTooBig(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

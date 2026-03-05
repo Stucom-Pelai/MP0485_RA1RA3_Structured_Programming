@@ -1,0 +1,19 @@
+Testsuite: main.java.prog2.P02_OrwellTest
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0,244 sec
+
+Testcase: testPrintOrwellForYearExactly1984 took 0,051 sec
+	FAILED
+Expected output to contain 'Orwell'
+junit.framework.AssertionFailedError: Expected output to contain 'Orwell'
+	at main.java.prog2.P02_OrwellTest.testPrintOrwellForYearExactly1984(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testNoOutputForYearBefore1984 took 0,005 sec
+Testcase: testNoOutputForOtherYear took 0,001 sec
+Testcase: testPrintOrwellFor1984 took 0,002 sec
+	FAILED
+Expected output to contain 'Orwell'
+junit.framework.AssertionFailedError: Expected output to contain 'Orwell'
+	at main.java.prog2.P02_OrwellTest.testPrintOrwellFor1984(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

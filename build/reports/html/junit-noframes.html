@@ -1,0 +1,476 @@
+<html>
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+        <title>JUnit Test Report</title>
+        <style>
+          body { font-family: Arial, sans-serif; padding: 2em; background: #f7f7f7; }
+          h1 { color: #333; }
+          table { border-collapse: collapse; width: 100%; background: white; }
+          th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+          th { background-color: #4CAF50; color: white; }
+          tr:nth-child(even) { background-color: #f2f2f2; }
+          .pass { color: green; }
+          .fail { color: red; }
+
+          #chart-container {
+            width: 50vw;        /* 50% of viewport width */
+            max-width: 400px;   /* max width */
+            margin: 2em auto;   /* center horizontally with margin top-bottom */
+          }
+          #resultChart {
+            display: block;
+            margin: 0 auto;
+            width: 100% !important;   /* fill container width */
+            height: auto !important;  /* auto height */
+          }
+        </style>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+    <body>
+        <h1>JUnit Test Report Summary</h1>
+        <p>
+            <strong>Total:</strong>227 |
+					<strong>Passed:</strong>14 |
+					<strong>Failures:</strong>206 |
+					<strong>Errors:</strong>7 |
+					<strong>Skipped:</strong>0
+        </p>
+        <div id="chart-container">
+            <canvas id="resultChart" width="400" height="400"></canvas>
+        </div>
+        <table>
+            <tr>
+                <th>Package</th><th>Test Suite</th><th>Tests</th><th>Failures</th><th>Errors</th><th>Skipped</th><th>Success Rate</th><th>Time (s)</th>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P01_SandboxTest</td><td>1</td><td class="fail">0</td><td class="fail">0</td><td>0</td><td>100%
+							</td><td>0.21</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P02_AdaLovelaceTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.313</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P03_OnceUponATimeTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.255</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P04_MessageTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.371</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P05_HiAdaLovelaceTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.237</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P06_MessageThreeTimesTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.286</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P07_GreetingTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.292</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P08_ConversationTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.239</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P09_StoryTest</td><td>1</td><td class="fail">0</td><td class="fail">1</td><td>0</td><td>0%
+							</td><td>0.0</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P10_VariousVariablesTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.33</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P11_IntegerInputTest</td><td>1</td><td class="fail">0</td><td class="fail">1</td><td>0</td><td>0%
+							</td><td>0.0</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P12_DoubleInputTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.361</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P13_BooleanInputTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.243</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P14_DifferentTypesOfInputTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.27</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P15_SecondsInADayTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.339</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P16_SumOfTwoNumbersTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.237</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P17_SumOfThreeNumbersTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.302</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P18_AdditionFormulaTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.204</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P19_MultiplicationFormulaTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.206</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P20_DivisionFormulaTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.251</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P21_AverageOfTwoNumbersTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.225</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P22_AverageOfThreeNumbersTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.261</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P23_SimpleCalculatorTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.378</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P24_SquaredTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.316</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P25_SquareRootOfSumTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.207</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P26_RectanglePrecisionTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.217</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P27_NumberPowTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.206</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P28_TenDigitsTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.216</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P29_Minutes2HoursTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.194</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P30_Seconds2MinutesTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.386</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P31_Days2WeeksTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.227</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P32_Years2MonthsDaysTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.203</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P33_WeeklySalaryTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.209</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P34_PriceWithVATTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.25</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P35_ShippingCostTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.197</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P36_IsDriverTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.202</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P37_AllowedToEnterTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.421</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P38_TemperatureWarningTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.209</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P39_EligibleForDiscountTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.213</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P40_DiscountedPriceTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.196</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P41_MathDiscountTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.282</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P42_RandomDiscountTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.194</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P43_LotterySimulatorTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.204</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P44_CustomerArrivalTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.319</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P45_WeeklySalesTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.316</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P46_OvertimePayTest</td><td>1</td><td class="fail">0</td><td class="fail">1</td><td>0</td><td>0%
+							</td><td>0.0</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P47_TotalEarningsTest</td><td>1</td><td class="fail">0</td><td class="fail">1</td><td>0</td><td>0%
+							</td><td>0.0</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P48_YearlySavingsTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.54</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P49_ProfitMarginTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.224</td>
+            </tr>
+            <tr>
+                <td>main.java.prog1</td><td>P50_RetailProductTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.209</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P01_SpeedingTicketTest</td><td>4</td><td class="fail">2</td><td class="fail">0</td><td>0</td><td>50%
+							</td><td>0.336</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P02_OrwellTest</td><td>4</td><td class="fail">2</td><td class="fail">0</td><td>0</td><td>50%
+							</td><td>0.244</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P03_AncientTest</td><td>4</td><td class="fail">2</td><td class="fail">0</td><td>0</td><td>50%
+							</td><td>0.262</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P04_PositivityTest</td><td>4</td><td class="fail">4</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.213</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P05_AdulthoodTest</td><td>4</td><td class="fail">4</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.378</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P06_LargerThanOrEqualToTest</td><td>3</td><td class="fail">3</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.321</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P07_GradesAndPointsTest</td><td>8</td><td class="fail">8</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.296</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P08_AbsoluteValueTest</td><td>4</td><td class="fail">4</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.249</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P09_ComparingNumbersTest</td><td>3</td><td class="fail">3</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.232</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P10_OddOrEvenTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.215</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P11_PasswordTest</td><td>2</td><td class="fail">2</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.231</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P12_SameTest</td><td>4</td><td class="fail">4</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.217</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P13_CheckingTheAgeTest</td><td>4</td><td class="fail">4</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.237</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P14_LeapYearTest</td><td>4</td><td class="fail">4</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.349</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P15_GiftTaxTest</td><td>6</td><td class="fail">6</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.251</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P16_CounterDigitsTest</td><td>7</td><td class="fail">7</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.244</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P17_NextSecondTest</td><td>5</td><td class="fail">5</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.223</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P18_NumberToWordTest</td><td>3</td><td class="fail">3</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.229</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P19_NextDateTest</td><td>4</td><td class="fail">4</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.257</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P20_AccurateNextDateTest</td><td>7</td><td class="fail">7</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.24</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P21_CarryOnTest</td><td>1</td><td class="fail">0</td><td class="fail">1</td><td>0</td><td>0%
+							</td><td>0.0</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P22_AreWeThereYetTest</td><td>3</td><td class="fail">3</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.273</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P23_OnlyPositivesTest</td><td>3</td><td class="fail">3</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.24</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P24_NumberOfNumbersTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.225</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P25_NumberOfNegativeNumbersTest</td><td>4</td><td class="fail">4</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.239</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P26_SumOfNumbersTest</td><td>4</td><td class="fail">4</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.382</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P27_NumberAndSumOfNumbersTest</td><td>4</td><td class="fail">4</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.259</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P28_AverageOfNumbersTest</td><td>4</td><td class="fail">4</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.243</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P29_AverageOfPositiveNumbersTest</td><td>7</td><td class="fail">7</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.239</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P30_CountingTest</td><td>4</td><td class="fail">3</td><td class="fail">0</td><td>0</td><td>25%
+							</td><td>0.279</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P31_CountingToHundredTest</td><td>3</td><td class="fail">3</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.331</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P32_FromWhereToWhereTest</td><td>3</td><td class="fail">3</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.249</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P33_SumOfASequenceTest</td><td>5</td><td class="fail">5</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.325</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P34_SumOfASequenceTheSequelTest</td><td>1</td><td class="fail">0</td><td class="fail">1</td><td>0</td><td>0%
+							</td><td>0.0</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P35_FactorialTest</td><td>1</td><td class="fail">0</td><td class="fail">1</td><td>0</td><td>0%
+							</td><td>0.0</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P36_ThanksByeTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.224</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P37_MultiplicationTablesTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.255</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P38_AverageValuesTest</td><td>4</td><td class="fail">4</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.269</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P39_BurguerChainTest</td><td>5</td><td class="fail">4</td><td class="fail">0</td><td>0</td><td>20%
+							</td><td>0.239</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P40_CounterWithETest</td><td>6</td><td class="fail">6</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.313</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P41_NumberReaderTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.231</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P42_NumberReaderReverseTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.395</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P43_ReaderNumberStatsTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.236</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P44_CheckOrderTest</td><td>4</td><td class="fail">4</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.242</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P45_SwapTest</td><td>1</td><td class="fail">1</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.201</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P46_IndexWasNotFoundTest</td><td>3</td><td class="fail">3</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.265</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P47_SumOfArrayTest</td><td>5</td><td class="fail">3</td><td class="fail">0</td><td>0</td><td>40%
+							</td><td>0.235</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P48_ArrayPrinterTest</td><td>4</td><td class="fail">3</td><td class="fail">0</td><td>0</td><td>25%
+							</td><td>0.38</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P49_PrinterStarsTest</td><td>5</td><td class="fail">3</td><td class="fail">0</td><td>0</td><td>40%
+							</td><td>0.341</td>
+            </tr>
+            <tr>
+                <td>main.java.prog2</td><td>P50_LongJumpCompetitionTest</td><td>2</td><td class="fail">2</td><td class="fail">0</td><td>0</td><td>0%
+							</td><td>0.232</td>
+            </tr>
+        </table>
+        <script type="text/javascript">
+          const ctx = document.getElementById('resultChart').getContext('2d');
+          const resultChart = new Chart(ctx, {
+            type: 'pie',
+            data: {
+              labels: ['Passed', 'Failures', 'Errors', 'Skipped'],
+              datasets: [{
+                label: 'Test Results',
+                data: [
+                  14,
+                  206,
+                  7,
+                  0
+                ],
+                backgroundColor: ['#4CAF50', '#f44336', '#ff9800', '#9e9e9e'],
+                borderWidth: 1
+              }]
+            },
+            options: {
+              responsive: true,
+              maintainAspectRatio: true,
+              aspectRatio: 1,
+              plugins: {
+                legend: { position: 'bottom' }
+              }
+            }
+          });
+        </script>
+    </body>
+</html>

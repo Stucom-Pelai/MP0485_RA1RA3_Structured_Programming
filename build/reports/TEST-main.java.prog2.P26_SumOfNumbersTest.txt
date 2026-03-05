@@ -1,0 +1,51 @@
+Testsuite: main.java.prog2.P26_SumOfNumbersTest
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0,382 sec
+
+Testcase: testNoNumbers took 0,057 sec
+	FAILED
+Expected output not found. Output was:
+
+junit.framework.AssertionFailedError: Expected output not found. Output was:
+
+	at main.java.prog2.P26_SumOfNumbersTest.testOutput(Unknown Source)
+	at main.java.prog2.P26_SumOfNumbersTest.testNoNumbers(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testMixedNumbers took 0,005 sec
+	FAILED
+Expected output not found. Output was:
+
+junit.framework.AssertionFailedError: Expected output not found. Output was:
+
+	at main.java.prog2.P26_SumOfNumbersTest.testOutput(Unknown Source)
+	at main.java.prog2.P26_SumOfNumbersTest.testMixedNumbers(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testPositiveNumbers took 0,004 sec
+	FAILED
+Expected output not found. Output was:
+
+junit.framework.AssertionFailedError: Expected output not found. Output was:
+
+	at main.java.prog2.P26_SumOfNumbersTest.testOutput(Unknown Source)
+	at main.java.prog2.P26_SumOfNumbersTest.testPositiveNumbers(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testNegativeNumbers took 0,003 sec
+	FAILED
+Expected output not found. Output was:
+
+junit.framework.AssertionFailedError: Expected output not found. Output was:
+
+	at main.java.prog2.P26_SumOfNumbersTest.testOutput(Unknown Source)
+	at main.java.prog2.P26_SumOfNumbersTest.testNegativeNumbers(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+

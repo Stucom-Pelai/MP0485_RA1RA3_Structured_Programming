@@ -1,0 +1,99 @@
+Testsuite: main.java.prog2.P29_AverageOfPositiveNumbersTest
+Tests run: 7, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 0,239 sec
+
+Testcase: testNegativeThenPositive took 0,038 sec
+	FAILED
+Expected output not found. Expected to find: "3.0"
+But got:
+
+junit.framework.AssertionFailedError: Expected output not found. Expected to find: "3.0"
+But got:
+
+	at main.java.prog2.P29_AverageOfPositiveNumbersTest.testOutput(Unknown Source)
+	at main.java.prog2.P29_AverageOfPositiveNumbersTest.testNegativeThenPositive(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testOnePositiveThenZero took 0,003 sec
+	FAILED
+Expected output not found. Expected to find: "1.0"
+But got:
+
+junit.framework.AssertionFailedError: Expected output not found. Expected to find: "1.0"
+But got:
+
+	at main.java.prog2.P29_AverageOfPositiveNumbersTest.testOutput(Unknown Source)
+	at main.java.prog2.P29_AverageOfPositiveNumbersTest.testOnePositiveThenZero(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testThreeOnes took 0,003 sec
+	FAILED
+Expected output not found. Expected to find: "1.0"
+But got:
+
+junit.framework.AssertionFailedError: Expected output not found. Expected to find: "1.0"
+But got:
+
+	at main.java.prog2.P29_AverageOfPositiveNumbersTest.testOutput(Unknown Source)
+	at main.java.prog2.P29_AverageOfPositiveNumbersTest.testThreeOnes(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testNoNumbers took 0,003 sec
+	FAILED
+Expected output not found. Expected to find: "Cannot calculate the average"
+But got:
+
+junit.framework.AssertionFailedError: Expected output not found. Expected to find: "Cannot calculate the average"
+But got:
+
+	at main.java.prog2.P29_AverageOfPositiveNumbersTest.testOutput(Unknown Source)
+	at main.java.prog2.P29_AverageOfPositiveNumbersTest.testNoNumbers(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testMixedWithZeroAverage took 0,003 sec
+	FAILED
+Expected output not found. Expected to find: "Cannot calculate the average"
+But got:
+
+junit.framework.AssertionFailedError: Expected output not found. Expected to find: "Cannot calculate the average"
+But got:
+
+	at main.java.prog2.P29_AverageOfPositiveNumbersTest.testOutput(Unknown Source)
+	at main.java.prog2.P29_AverageOfPositiveNumbersTest.testMixedWithZeroAverage(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testOnlyNegativesThenZero took 0,002 sec
+	FAILED
+Expected output not found. Expected to find: "Cannot calculate the average"
+But got:
+
+junit.framework.AssertionFailedError: Expected output not found. Expected to find: "Cannot calculate the average"
+But got:
+
+	at main.java.prog2.P29_AverageOfPositiveNumbersTest.testOutput(Unknown Source)
+	at main.java.prog2.P29_AverageOfPositiveNumbersTest.testOnlyNegativesThenZero(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testMultiplePositives took 0,002 sec
+	FAILED
+Expected output not found. Expected to find: "1.5"
+But got:
+
+junit.framework.AssertionFailedError: Expected output not found. Expected to find: "1.5"
+But got:
+
+	at main.java.prog2.P29_AverageOfPositiveNumbersTest.testOutput(Unknown Source)
+	at main.java.prog2.P29_AverageOfPositiveNumbersTest.testMultiplePositives(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+

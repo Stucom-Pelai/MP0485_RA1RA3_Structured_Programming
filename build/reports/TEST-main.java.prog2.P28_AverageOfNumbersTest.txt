@@ -1,0 +1,51 @@
+Testsuite: main.java.prog2.P28_AverageOfNumbersTest
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0,243 sec
+
+Testcase: testNoNumbers took 0,035 sec
+	FAILED
+Expected average output not found. Output was:
+
+junit.framework.AssertionFailedError: Expected average output not found. Output was:
+
+	at main.java.prog2.P28_AverageOfNumbersTest.testOutput(Unknown Source)
+	at main.java.prog2.P28_AverageOfNumbersTest.testNoNumbers(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testMixedNumbers took 0,005 sec
+	FAILED
+Expected average output not found. Output was:
+
+junit.framework.AssertionFailedError: Expected average output not found. Output was:
+
+	at main.java.prog2.P28_AverageOfNumbersTest.testOutput(Unknown Source)
+	at main.java.prog2.P28_AverageOfNumbersTest.testMixedNumbers(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testPositiveNumbers took 0,005 sec
+	FAILED
+Expected average output not found. Output was:
+
+junit.framework.AssertionFailedError: Expected average output not found. Output was:
+
+	at main.java.prog2.P28_AverageOfNumbersTest.testOutput(Unknown Source)
+	at main.java.prog2.P28_AverageOfNumbersTest.testPositiveNumbers(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testNegativeNumbers took 0,008 sec
+	FAILED
+Expected average output not found. Output was:
+
+junit.framework.AssertionFailedError: Expected average output not found. Output was:
+
+	at main.java.prog2.P28_AverageOfNumbersTest.testOutput(Unknown Source)
+	at main.java.prog2.P28_AverageOfNumbersTest.testNegativeNumbers(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+

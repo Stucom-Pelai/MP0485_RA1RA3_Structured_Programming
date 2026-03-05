@@ -1,0 +1,31 @@
+Testsuite: main.java.prog2.P08_AbsoluteValueTest
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0,249 sec
+
+Testcase: testZero took 0,029 sec
+	FAILED
+expected:<[0]> but was:<[]>
+junit.framework.AssertionFailedError: expected:<[0]> but was:<[]>
+	at main.java.prog2.P08_AbsoluteValueTest.testZero(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testNegativeOne took 0,002 sec
+	FAILED
+expected:<[1]> but was:<[]>
+junit.framework.AssertionFailedError: expected:<[1]> but was:<[]>
+	at main.java.prog2.P08_AbsoluteValueTest.testNegativeOne(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testNegativeNumber took 0,002 sec
+	FAILED
+expected:<[7]> but was:<[]>
+junit.framework.AssertionFailedError: expected:<[7]> but was:<[]>
+	at main.java.prog2.P08_AbsoluteValueTest.testNegativeNumber(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testPositiveNumber took 0,002 sec
+	FAILED
+expected:<[5]> but was:<[]>
+junit.framework.AssertionFailedError: expected:<[5]> but was:<[]>
+	at main.java.prog2.P08_AbsoluteValueTest.testPositiveNumber(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

@@ -1,0 +1,10 @@
+Testsuite: main.java.prog1.P43_LotterySimulatorTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0,204 sec
+
+Testcase: testLotteryNumbersRangeAndCount took 0,024 sec
+	FAILED
+Output should start with 'Your numbers: '
+junit.framework.AssertionFailedError: Output should start with 'Your numbers: '
+	at main.java.prog1.P43_LotterySimulatorTest.testLotteryNumbersRangeAndCount(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

@@ -1,0 +1,57 @@
+Testsuite: main.java.prog2.P40_CounterWithETest
+Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0,313 sec
+
+Testcase: testReplace3FourthDigit took 0,07 sec
+	FAILED
+Output should contain '000E' with '3' replaced by 'E' in fourth digit
+junit.framework.AssertionFailedError: Output should contain '000E' with '3' replaced by 'E' in fourth digit
+	at main.java.prog2.P40_CounterWithETest.testReplace3FourthDigit(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testStartsWith0000 took 0,005 sec
+	FAILED
+Output should contain '0000' as first line
+junit.framework.AssertionFailedError: Output should contain '0000' as first line
+	at main.java.prog2.P40_CounterWithETest.testStartsWith0000(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testReplace3SecondDigit took 0,003 sec
+	FAILED
+Output should contain '0E00' with '3' replaced by 'E' in second digit
+junit.framework.AssertionFailedError: Output should contain '0E00' with '3' replaced by 'E' in second digit
+	at main.java.prog2.P40_CounterWithETest.testReplace3SecondDigit(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testEndsWith9999 took 0,004 sec
+	FAILED
+Output should contain '9999' as last line
+junit.framework.AssertionFailedError: Output should contain '9999' as last line
+	at main.java.prog2.P40_CounterWithETest.testEndsWith9999(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testReplace3ThirdDigit took 0,003 sec
+	FAILED
+Output should contain '00E0' with '3' replaced by 'E' in third digit
+junit.framework.AssertionFailedError: Output should contain '00E0' with '3' replaced by 'E' in third digit
+	at main.java.prog2.P40_CounterWithETest.testReplace3ThirdDigit(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testReplace3FirstDigit took 0,003 sec
+	FAILED
+Output should contain 'E000' with '3' replaced by 'E' in first digit
+junit.framework.AssertionFailedError: Output should contain 'E000' with '3' replaced by 'E' in first digit
+	at main.java.prog2.P40_CounterWithETest.testReplace3FirstDigit(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+

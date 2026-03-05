@@ -1,0 +1,14 @@
+Testsuite: main.java.prog1.P19_MultiplicationFormulaTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0,206 sec
+
+Testcase: testMultiplicationFormulaOutput took 0,031 sec
+	FAILED
+expected:<[Give the first number:
+Give the second number:
+6 * 9 = 54]> but was:<[]>
+junit.framework.AssertionFailedError: expected:<[Give the first number:
+Give the second number:
+6 * 9 = 54]> but was:<[]>
+	at main.java.prog1.P19_MultiplicationFormulaTest.testMultiplicationFormulaOutput(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

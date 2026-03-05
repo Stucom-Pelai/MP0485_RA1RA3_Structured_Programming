@@ -1,0 +1,31 @@
+Testsuite: main.java.prog2.P48_ArrayPrinterTest
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0,38 sec
+
+Testcase: testPrintNeatlyEmptyArray took 0,023 sec
+Testcase: testPrintNeatlySingleElement took 0,02 sec
+	FAILED
+Output for {7} should be exactly '7' expected:<[7]> but was:<[]>
+junit.framework.AssertionFailedError: Output for {7} should be exactly '7' expected:<[7]> but was:<[]>
+	at main.java.prog2.P48_ArrayPrinterTest.testPrintNeatlySingleElement(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testPrintNeatlyThreeElements took 0,01 sec
+	FAILED
+Output for {1, 2, 3} should be exactly '1, 2, 3' expected:<[1, 2, 3]> but was:<[]>
+junit.framework.AssertionFailedError: Output for {1, 2, 3} should be exactly '1, 2, 3' expected:<[1, 2, 3]> but was:<[]>
+	at main.java.prog2.P48_ArrayPrinterTest.testPrintNeatlyThreeElements(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testPrintNeatlyMultipleElements took 0,01 sec
+	FAILED
+Output for {5, 1, 3, 4, 2} should be exactly '5, 1, 3, 4, 2' expected:<[5, 1, 3, 4, 2]> but was:<[]>
+junit.framework.AssertionFailedError: Output for {5, 1, 3, 4, 2} should be exactly '5, 1, 3, 4, 2' expected:<[5, 1, 3, 4, 2]> but was:<[]>
+	at main.java.prog2.P48_ArrayPrinterTest.testPrintNeatlyMultipleElements(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+

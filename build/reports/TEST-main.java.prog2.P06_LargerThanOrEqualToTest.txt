@@ -1,0 +1,24 @@
+Testsuite: main.java.prog2.P06_LargerThanOrEqualToTest
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0,321 sec
+
+Testcase: testNumbersEqual took 0,048 sec
+	FAILED
+Output should contain 'The numbers are equal!'
+junit.framework.AssertionFailedError: Output should contain 'The numbers are equal!'
+	at main.java.prog2.P06_LargerThanOrEqualToTest.testNumbersEqual(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testSecondGreater took 0,002 sec
+	FAILED
+Output should contain 'Greater number is: 15'
+junit.framework.AssertionFailedError: Output should contain 'Greater number is: 15'
+	at main.java.prog2.P06_LargerThanOrEqualToTest.testSecondGreater(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testFirstGreater took 0,002 sec
+	FAILED
+Output should contain 'Greater number is: 10'
+junit.framework.AssertionFailedError: Output should contain 'Greater number is: 10'
+	at main.java.prog2.P06_LargerThanOrEqualToTest.testFirstGreater(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

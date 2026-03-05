@@ -1,0 +1,10 @@
+Testsuite: main.java.prog1.P44_CustomerArrivalTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0,319 sec
+
+Testcase: testCustomerArrivalTimesAndAverage took 0,035 sec
+	FAILED
+Should output 6 lines expected:<6> but was:<1>
+junit.framework.AssertionFailedError: Should output 6 lines expected:<6> but was:<1>
+	at main.java.prog1.P44_CustomerArrivalTest.testCustomerArrivalTimesAndAverage(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

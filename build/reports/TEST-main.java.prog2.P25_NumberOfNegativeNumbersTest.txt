@@ -1,0 +1,51 @@
+Testsuite: main.java.prog2.P25_NumberOfNegativeNumbersTest
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0,239 sec
+
+Testcase: testSomeNegatives took 0,045 sec
+	FAILED
+Expected output not found. Output was:
+
+junit.framework.AssertionFailedError: Expected output not found. Output was:
+
+	at main.java.prog2.P25_NumberOfNegativeNumbersTest.testOutput(Unknown Source)
+	at main.java.prog2.P25_NumberOfNegativeNumbersTest.testSomeNegatives(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testNoNumbers took 0,003 sec
+	FAILED
+Expected output not found. Output was:
+
+junit.framework.AssertionFailedError: Expected output not found. Output was:
+
+	at main.java.prog2.P25_NumberOfNegativeNumbersTest.testOutput(Unknown Source)
+	at main.java.prog2.P25_NumberOfNegativeNumbersTest.testNoNumbers(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testNoNegatives took 0,003 sec
+	FAILED
+Expected output not found. Output was:
+
+junit.framework.AssertionFailedError: Expected output not found. Output was:
+
+	at main.java.prog2.P25_NumberOfNegativeNumbersTest.testOutput(Unknown Source)
+	at main.java.prog2.P25_NumberOfNegativeNumbersTest.testNoNegatives(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testAllNegatives took 0,002 sec
+	FAILED
+Expected output not found. Output was:
+
+junit.framework.AssertionFailedError: Expected output not found. Output was:
+
+	at main.java.prog2.P25_NumberOfNegativeNumbersTest.testOutput(Unknown Source)
+	at main.java.prog2.P25_NumberOfNegativeNumbersTest.testAllNegatives(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+

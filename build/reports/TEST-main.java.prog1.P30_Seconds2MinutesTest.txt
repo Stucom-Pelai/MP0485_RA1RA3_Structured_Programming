@@ -1,0 +1,10 @@
+Testsuite: main.java.prog1.P30_Seconds2MinutesTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0,386 sec
+
+Testcase: testSecondsToMinutes took 0,059 sec
+	FAILED
+Failed for input: 75 expected:<[1 minutes and 15 seconds]> but was:<[]>
+junit.framework.AssertionFailedError: Failed for input: 75 expected:<[1 minutes and 15 seconds]> but was:<[]>
+	at main.java.prog1.P30_Seconds2MinutesTest.testSecondsToMinutes(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

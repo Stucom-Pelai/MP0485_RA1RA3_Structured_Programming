@@ -1,0 +1,32 @@
+Testsuite: main.java.prog2.P47_SumOfArrayTest
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0,235 sec
+
+Testcase: testEmptyArray took 0,013 sec
+Testcase: testTypicalArray took 0,013 sec
+	FAILED
+Sum of {5, 1, 9, 4, 2} should be 21 expected:<21> but was:<0>
+junit.framework.AssertionFailedError: Sum of {5, 1, 9, 4, 2} should be 21 expected:<21> but was:<0>
+	at main.java.prog2.P47_SumOfArrayTest.testTypicalArray(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testAllSameNumber took 0,003 sec
+	FAILED
+Sum of {4, 4, 4, 4} should be 16 expected:<16> but was:<0>
+junit.framework.AssertionFailedError: Sum of {4, 4, 4, 4} should be 16 expected:<16> but was:<0>
+	at main.java.prog2.P47_SumOfArrayTest.testAllSameNumber(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testSingleElementArray took 0,004 sec
+	FAILED
+Sum of {7} should be 7 expected:<7> but was:<0>
+junit.framework.AssertionFailedError: Sum of {7} should be 7 expected:<7> but was:<0>
+	at main.java.prog2.P47_SumOfArrayTest.testSingleElementArray(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testNegativeNumbers took 0,015 sec

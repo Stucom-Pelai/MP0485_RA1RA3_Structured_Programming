@@ -1,0 +1,13 @@
+Testsuite: main.java.prog1.P11_IntegerInputTest
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec
+
+Testcase: BeforeFirstTest took 0 sec
+	Caused an ERROR
+Timeout occurred. Please note the time in the report does not reflect the time until the timeout.
+junit.framework.AssertionFailedError: Timeout occurred. Please note the time in the report does not reflect the time until the timeout.
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at org.netbeans.core.execution.RunClassThread.doRun(RunClassThread.java:131)
+	at org.netbeans.modules.openide.util.GlobalLookup.execute(GlobalLookup.java:45)
+	at org.openide.util.lookup.Lookups.executeWith(Lookups.java:287)
+	at org.netbeans.core.execution.RunClassThread.run(RunClassThread.java:80)
+

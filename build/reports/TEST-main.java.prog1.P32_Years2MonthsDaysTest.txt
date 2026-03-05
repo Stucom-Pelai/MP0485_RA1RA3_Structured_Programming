@@ -1,0 +1,10 @@
+Testsuite: main.java.prog1.P32_Years2MonthsDaysTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0,203 sec
+
+Testcase: testYearsToMonthsDays took 0,031 sec
+	FAILED
+Failed for input: 1 expected:<[1 years = 12 months = 360 days]> but was:<[]>
+junit.framework.AssertionFailedError: Failed for input: 1 expected:<[1 years = 12 months = 360 days]> but was:<[]>
+	at main.java.prog1.P32_Years2MonthsDaysTest.testYearsToMonthsDays(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

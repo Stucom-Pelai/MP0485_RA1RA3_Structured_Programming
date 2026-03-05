@@ -1,0 +1,42 @@
+Testsuite: main.java.prog2.P49_PrinterStarsTest
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0,341 sec
+
+Testcase: testEmptyArray took 0,028 sec
+Testcase: testAllZeros took 0,003 sec
+Testcase: testTypicalArray took 0,02 sec
+	FAILED
+Stars for {3, 1, 2} should be printed as expected expected:<[***
+*
+**]> but was:<[]>
+junit.framework.AssertionFailedError: Stars for {3, 1, 2} should be printed as expected expected:<[***
+*
+**]> but was:<[]>
+	at main.java.prog2.P49_PrinterStarsTest.testTypicalArray(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testMixedValues took 0,008 sec
+	FAILED
+Stars for {1, 4, 0, 2} should match expected:<[*
+****
+
+**]> but was:<[]>
+junit.framework.AssertionFailedError: Stars for {1, 4, 0, 2} should match expected:<[*
+****
+
+**]> but was:<[]>
+	at main.java.prog2.P49_PrinterStarsTest.testMixedValues(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testSingleValue took 0,005 sec
+	FAILED
+Stars for single value {5} should be '*****' expected:<[*****]> but was:<[]>
+junit.framework.AssertionFailedError: Stars for single value {5} should be '*****' expected:<[*****]> but was:<[]>
+	at main.java.prog2.P49_PrinterStarsTest.testSingleValue(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+

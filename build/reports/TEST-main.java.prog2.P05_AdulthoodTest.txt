@@ -1,0 +1,39 @@
+Testsuite: main.java.prog2.P05_AdulthoodTest
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0,378 sec
+
+Testcase: testAge17 took 0,032 sec
+	FAILED
+expected:<[How old are you?
+You are not an adult]> but was:<[]>
+junit.framework.AssertionFailedError: expected:<[How old are you?
+You are not an adult]> but was:<[]>
+	at main.java.prog2.P05_AdulthoodTest.testAge17(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testAge18 took 0,002 sec
+	FAILED
+expected:<[How old are you?
+You are an adult]> but was:<[]>
+junit.framework.AssertionFailedError: expected:<[How old are you?
+You are an adult]> but was:<[]>
+	at main.java.prog2.P05_AdulthoodTest.testAge18(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testAge99 took 0,004 sec
+	FAILED
+expected:<[How old are you?
+You are an adult]> but was:<[]>
+junit.framework.AssertionFailedError: expected:<[How old are you?
+You are an adult]> but was:<[]>
+	at main.java.prog2.P05_AdulthoodTest.testAge99(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testAge0 took 0,003 sec
+	FAILED
+expected:<[How old are you?
+You are not an adult]> but was:<[]>
+junit.framework.AssertionFailedError: expected:<[How old are you?
+You are not an adult]> but was:<[]>
+	at main.java.prog2.P05_AdulthoodTest.testAge0(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

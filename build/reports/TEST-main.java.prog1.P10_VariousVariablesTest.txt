@@ -1,0 +1,50 @@
+Testsuite: main.java.prog1.P10_VariousVariablesTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0,33 sec
+
+Testcase: testVariablesOutput took 0,028 sec
+	FAILED
+expected:<Chicken:
+[9000
+Bacon (kg):
+0.1
+Tractor:
+Zetor
+
+And finally, a summary:
+9000
+0.1
+Zetor]> but was:<Chicken:
+[5000
+Bacon (kg):
+6.1
+Tractor:
+Machine
+
+And finally, a summary:
+5000
+6.1
+Machine]>
+junit.framework.AssertionFailedError: expected:<Chicken:
+[9000
+Bacon (kg):
+0.1
+Tractor:
+Zetor
+
+And finally, a summary:
+9000
+0.1
+Zetor]> but was:<Chicken:
+[5000
+Bacon (kg):
+6.1
+Tractor:
+Machine
+
+And finally, a summary:
+5000
+6.1
+Machine]>
+	at main.java.prog1.P10_VariousVariablesTest.testVariablesOutput(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

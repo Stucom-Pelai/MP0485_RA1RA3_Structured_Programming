@@ -1,0 +1,24 @@
+Testsuite: main.java.prog2.P09_ComparingNumbersTest
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0,232 sec
+
+Testcase: testEqual took 0,029 sec
+	FAILED
+expected:<[8 is equal to 8.]> but was:<[]>
+junit.framework.AssertionFailedError: expected:<[8 is equal to 8.]> but was:<[]>
+	at main.java.prog2.P09_ComparingNumbersTest.testEqual(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testFirstSmaller took 0,002 sec
+	FAILED
+expected:<[3 is smaller than 7.]> but was:<[]>
+junit.framework.AssertionFailedError: expected:<[3 is smaller than 7.]> but was:<[]>
+	at main.java.prog2.P09_ComparingNumbersTest.testFirstSmaller(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testFirstGreater took 0,003 sec
+	FAILED
+expected:<[10 is greater than 5.]> but was:<[]>
+junit.framework.AssertionFailedError: expected:<[10 is greater than 5.]> but was:<[]>
+	at main.java.prog2.P09_ComparingNumbersTest.testFirstGreater(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

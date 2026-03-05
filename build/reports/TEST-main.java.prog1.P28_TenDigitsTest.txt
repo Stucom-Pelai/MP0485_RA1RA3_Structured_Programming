@@ -1,0 +1,10 @@
+Testsuite: main.java.prog1.P28_TenDigitsTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0,216 sec
+
+Testcase: testTensDigit took 0,04 sec
+	FAILED
+Failed for input: 123 expected:<[2]> but was:<[]>
+junit.framework.AssertionFailedError: Failed for input: 123 expected:<[2]> but was:<[]>
+	at main.java.prog1.P28_TenDigitsTest.testTensDigit(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

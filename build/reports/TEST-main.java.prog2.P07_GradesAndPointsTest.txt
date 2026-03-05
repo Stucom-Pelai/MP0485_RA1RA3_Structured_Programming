@@ -1,0 +1,71 @@
+Testsuite: main.java.prog2.P07_GradesAndPointsTest
+Tests run: 8, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 0,296 sec
+
+Testcase: testGrade1Range took 0,043 sec
+	FAILED
+Expected output to contain '1' for input 50
+
+junit.framework.AssertionFailedError: Expected output to contain '1' for input 50
+
+	at main.java.prog2.P07_GradesAndPointsTest.testGrade1Range(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testIncredibleAbove100 took 0,002 sec
+	FAILED
+Expected output to contain 'incredible!'
+junit.framework.AssertionFailedError: Expected output to contain 'incredible!'
+	at main.java.prog2.P07_GradesAndPointsTest.testIncredibleAbove100(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testGrade2Range took 0,008 sec
+	FAILED
+Expected output to contain '2' for input 60
+
+junit.framework.AssertionFailedError: Expected output to contain '2' for input 60
+
+	at main.java.prog2.P07_GradesAndPointsTest.testGrade2Range(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testGrade3Range took 0,007 sec
+	FAILED
+Expected output to contain '3' for input 70
+
+junit.framework.AssertionFailedError: Expected output to contain '3' for input 70
+
+	at main.java.prog2.P07_GradesAndPointsTest.testGrade3Range(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testGrade4Range took 0,003 sec
+	FAILED
+Expected output to contain '4' for input 80
+
+junit.framework.AssertionFailedError: Expected output to contain '4' for input 80
+
+	at main.java.prog2.P07_GradesAndPointsTest.testGrade4Range(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testGrade5Range took 0,006 sec
+	FAILED
+Expected output to contain '5' for input 90
+
+junit.framework.AssertionFailedError: Expected output to contain '5' for input 90
+
+	at main.java.prog2.P07_GradesAndPointsTest.testGrade5Range(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testImpossibleBelowZero took 0,003 sec
+	FAILED
+Expected output to contain 'impossible!'
+junit.framework.AssertionFailedError: Expected output to contain 'impossible!'
+	at main.java.prog2.P07_GradesAndPointsTest.testImpossibleBelowZero(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testFailedRange took 0,003 sec
+	FAILED
+Expected output to contain 'failed' for input 0
+
+junit.framework.AssertionFailedError: Expected output to contain 'failed' for input 0
+
+	at main.java.prog2.P07_GradesAndPointsTest.testFailedRange(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

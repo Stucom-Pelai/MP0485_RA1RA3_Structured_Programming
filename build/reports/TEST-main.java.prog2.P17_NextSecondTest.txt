@@ -1,0 +1,48 @@
+Testsuite: main.java.prog2.P17_NextSecondTest
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0,223 sec
+
+Testcase: testHourOverflow took 0,026 sec
+	FAILED
+Expected '0:0:0' in output but got:
+
+junit.framework.AssertionFailedError: Expected '0:0:0' in output but got:
+
+	at main.java.prog2.P17_NextSecondTest.testHourOverflow(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testSecondOverflow took 0,002 sec
+	FAILED
+Expected '15:0:0' in output but got:
+
+junit.framework.AssertionFailedError: Expected '15:0:0' in output but got:
+
+	at main.java.prog2.P17_NextSecondTest.testSecondOverflow(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testSimpleIncrement took 0,003 sec
+	FAILED
+Expected '12:30:16' in output but got:
+
+junit.framework.AssertionFailedError: Expected '12:30:16' in output but got:
+
+	at main.java.prog2.P17_NextSecondTest.testSimpleIncrement(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testAlmostMidnight took 0,002 sec
+	FAILED
+Expected '23:59:59' in output but got:
+
+junit.framework.AssertionFailedError: Expected '23:59:59' in output but got:
+
+	at main.java.prog2.P17_NextSecondTest.testAlmostMidnight(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testMinuteOverflow took 0,002 sec
+	FAILED
+Expected '11:0:0' in output but got:
+
+junit.framework.AssertionFailedError: Expected '11:0:0' in output but got:
+
+	at main.java.prog2.P17_NextSecondTest.testMinuteOverflow(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

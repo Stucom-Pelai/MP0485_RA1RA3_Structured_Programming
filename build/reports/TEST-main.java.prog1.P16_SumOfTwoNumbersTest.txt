@@ -1,0 +1,14 @@
+Testsuite: main.java.prog1.P16_SumOfTwoNumbersTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0,237 sec
+
+Testcase: testSumOutput took 0,034 sec
+	FAILED
+expected:<[Give the first number:
+Give the second number:
+The sum of the numbers is 12]> but was:<[]>
+junit.framework.AssertionFailedError: expected:<[Give the first number:
+Give the second number:
+The sum of the numbers is 12]> but was:<[]>
+	at main.java.prog1.P16_SumOfTwoNumbersTest.testSumOutput(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

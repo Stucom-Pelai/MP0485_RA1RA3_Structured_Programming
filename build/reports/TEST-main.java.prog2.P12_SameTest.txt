@@ -1,0 +1,47 @@
+Testsuite: main.java.prog2.P12_SameTest
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0,217 sec
+
+Testcase: testDifferentStringsCase took 0,032 sec
+	FAILED
+Output should print 'Different' for inputs 'Hello' and 'hrllo' expected:<[Enter the first string:
+Enter the second string:
+Different]> but was:<[]>
+junit.framework.AssertionFailedError: Output should print 'Different' for inputs 'Hello' and 'hrllo' expected:<[Enter the first string:
+Enter the second string:
+Different]> but was:<[]>
+	at main.java.prog2.P12_SameTest.testDifferentStringsCase(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testDifferentStrings took 0,001 sec
+	FAILED
+Output should print 'Different' when strings differ expected:<[Enter the first string:
+Enter the second string:
+Different]> but was:<[]>
+junit.framework.AssertionFailedError: Output should print 'Different' when strings differ expected:<[Enter the first string:
+Enter the second string:
+Different]> but was:<[]>
+	at main.java.prog2.P12_SameTest.testDifferentStrings(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testDifferentStringsCase2 took 0,003 sec
+	FAILED
+Output should print 'Different' for inputs 'abc' and 'xyz' expected:<[Enter the first string:
+Enter the second string:
+Different]> but was:<[]>
+junit.framework.AssertionFailedError: Output should print 'Different' for inputs 'abc' and 'xyz' expected:<[Enter the first string:
+Enter the second string:
+Different]> but was:<[]>
+	at main.java.prog2.P12_SameTest.testDifferentStringsCase2(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testSameStrings took 0,001 sec
+	FAILED
+Output should print 'Same' when strings are equal expected:<[Enter the first string:
+Enter the second string:
+Same]> but was:<[]>
+junit.framework.AssertionFailedError: Output should print 'Same' when strings are equal expected:<[Enter the first string:
+Enter the second string:
+Same]> but was:<[]>
+	at main.java.prog2.P12_SameTest.testSameStrings(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

@@ -1,0 +1,13 @@
+Testsuite: main.java.prog1.P08_ConversationTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0,239 sec
+
+Testcase: testConversationOutput took 0,047 sec
+	FAILED
+expected:<[Greetings! How are you doing?
+Oh, how interesting. Tell me more!
+Thanks for sharing!]> but was:<[]>
+junit.framework.AssertionFailedError: expected:<[Greetings! How are you doing?
+Thanks for sharing!]> but was:<[]>
+	at main.java.prog1.P08_ConversationTest.testConversationOutput(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

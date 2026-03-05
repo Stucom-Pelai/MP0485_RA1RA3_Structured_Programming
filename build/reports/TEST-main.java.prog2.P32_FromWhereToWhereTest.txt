@@ -1,0 +1,51 @@
+Testsuite: main.java.prog2.P32_FromWhereToWhereTest
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0,249 sec
+
+Testcase: testFrom3To7 took 0,041 sec
+	FAILED
+expected:<[Where to? 
+Where from? 
+3
+4
+5
+6
+7]> but was:<[]>
+junit.framework.AssertionFailedError: expected:<[Where to? 
+Where from? 
+3
+4
+5
+6
+7]> but was:<[]>
+	at main.java.prog2.P32_FromWhereToWhereTest.testOutput(Unknown Source)
+	at main.java.prog2.P32_FromWhereToWhereTest.testFrom3To7(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testFrom5To5 took 0,002 sec
+	FAILED
+expected:<[Where to? 
+Where from? 
+5]> but was:<[]>
+junit.framework.AssertionFailedError: expected:<[Where to? 
+Where from? 
+5]> but was:<[]>
+	at main.java.prog2.P32_FromWhereToWhereTest.testOutput(Unknown Source)
+	at main.java.prog2.P32_FromWhereToWhereTest.testFrom5To5(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testFrom10To7 took 0,003 sec
+	FAILED
+expected:<[Where to? 
+Where from?]> but was:<[]>
+junit.framework.AssertionFailedError: expected:<[Where to? 
+Where from?]> but was:<[]>
+	at main.java.prog2.P32_FromWhereToWhereTest.testOutput(Unknown Source)
+	at main.java.prog2.P32_FromWhereToWhereTest.testFrom10To7(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+

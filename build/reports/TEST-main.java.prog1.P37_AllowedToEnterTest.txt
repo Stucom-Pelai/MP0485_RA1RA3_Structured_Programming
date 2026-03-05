@@ -1,0 +1,16 @@
+Testsuite: main.java.prog1.P37_AllowedToEnterTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0,421 sec
+
+Testcase: testAllowedToEnter took 0,036 sec
+	FAILED
+Failed for input:
+14
+false
+ expected:<[false]> but was:<[]>
+junit.framework.AssertionFailedError: Failed for input:
+14
+false
+ expected:<[false]> but was:<[]>
+	at main.java.prog1.P37_AllowedToEnterTest.testAllowedToEnter(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

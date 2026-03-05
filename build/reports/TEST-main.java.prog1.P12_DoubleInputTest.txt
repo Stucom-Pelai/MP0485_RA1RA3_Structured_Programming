@@ -1,0 +1,12 @@
+Testsuite: main.java.prog1.P12_DoubleInputTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0,361 sec
+
+Testcase: testDoubleInputOutput took 0,048 sec
+	FAILED
+expected:<[Give a number:
+You gave the number 3.14]> but was:<[]>
+junit.framework.AssertionFailedError: expected:<[Give a number:
+You gave the number 3.14]> but was:<[]>
+	at main.java.prog1.P12_DoubleInputTest.testDoubleInputOutput(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

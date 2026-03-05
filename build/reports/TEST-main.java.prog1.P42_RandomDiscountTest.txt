@@ -1,0 +1,10 @@
+Testsuite: main.java.prog1.P42_RandomDiscountTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0,194 sec
+
+Testcase: testOutputFormatAndRange took 0,029 sec
+	FAILED
+Expected 2 output lines expected:<2> but was:<1>
+junit.framework.AssertionFailedError: Expected 2 output lines expected:<2> but was:<1>
+	at main.java.prog1.P42_RandomDiscountTest.testOutputFormatAndRange(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

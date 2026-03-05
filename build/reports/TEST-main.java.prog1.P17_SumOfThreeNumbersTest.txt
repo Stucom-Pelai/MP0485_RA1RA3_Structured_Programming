@@ -1,0 +1,16 @@
+Testsuite: main.java.prog1.P17_SumOfThreeNumbersTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0,302 sec
+
+Testcase: testSumOfThreeNumbers_MultipleInputs took 0,035 sec
+	FAILED
+expected:<[Give the first number:
+Give the second number:
+Give the third number:
+The sum of the numbers is 6]> but was:<[]>
+junit.framework.AssertionFailedError: expected:<[Give the first number:
+Give the second number:
+Give the third number:
+The sum of the numbers is 6]> but was:<[]>
+	at main.java.prog1.P17_SumOfThreeNumbersTest.testSumOfThreeNumbers_MultipleInputs(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

@@ -1,0 +1,12 @@
+Testsuite: main.java.prog2.P43_ReaderNumberStatsTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0,236 sec
+
+Testcase: testPosNegZeroStats took 0,03 sec
+	FAILED
+expected:<5> but was:<0>
+junit.framework.AssertionFailedError: expected:<5> but was:<0>
+	at main.java.prog2.P43_ReaderNumberStatsTest.testPosNegZeroStats(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+

@@ -1,0 +1,12 @@
+Testsuite: main.java.prog1.P33_WeeklySalaryTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0,209 sec
+
+Testcase: testWeeklySalary took 0,046 sec
+	FAILED
+Failed for input: 40
+15.5 expected:<[Weekly salary: 620.00]> but was:<[]>
+junit.framework.AssertionFailedError: Failed for input: 40
+15.5 expected:<[Weekly salary: 620.00]> but was:<[]>
+	at main.java.prog1.P33_WeeklySalaryTest.testWeeklySalary(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

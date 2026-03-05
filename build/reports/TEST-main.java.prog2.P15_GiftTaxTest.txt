@@ -1,0 +1,45 @@
+Testsuite: main.java.prog2.P15_GiftTaxTest
+Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0,251 sec
+
+Testcase: testTaxAbove1000000 took 0,031 sec
+	FAILED
+null
+junit.framework.AssertionFailedError
+	at main.java.prog2.P15_GiftTaxTest.testTaxAbove1000000(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testNoTaxBelow5000 took 0,007 sec
+	FAILED
+null
+junit.framework.AssertionFailedError
+	at main.java.prog2.P15_GiftTaxTest.testNoTaxBelow5000(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testTaxBracket25001to55000 took 0,001 sec
+	FAILED
+null
+junit.framework.AssertionFailedError
+	at main.java.prog2.P15_GiftTaxTest.testTaxBracket25001to55000(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testTaxBracket55001to200000 took 0,001 sec
+	FAILED
+null
+junit.framework.AssertionFailedError
+	at main.java.prog2.P15_GiftTaxTest.testTaxBracket55001to200000(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testTaxBracket200001to1000000 took 0,002 sec
+	FAILED
+null
+junit.framework.AssertionFailedError
+	at main.java.prog2.P15_GiftTaxTest.testTaxBracket200001to1000000(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testTaxBracket5000to25000 took 0,005 sec
+	FAILED
+null
+junit.framework.AssertionFailedError
+	at main.java.prog2.P15_GiftTaxTest.testTaxBracket5000to25000(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

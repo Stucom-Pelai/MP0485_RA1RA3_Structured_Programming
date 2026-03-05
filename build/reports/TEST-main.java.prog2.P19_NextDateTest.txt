@@ -1,0 +1,51 @@
+Testsuite: main.java.prog2.P19_NextDateTest
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0,257 sec
+
+Testcase: testEndOfYear took 0,033 sec
+	FAILED
+Expected output not found.
+Expected: "1/1/2024"
+Actual: ""
+junit.framework.AssertionFailedError: Expected output not found.
+Expected: "1/1/2024"
+Actual: ""
+	at main.java.prog2.P19_NextDateTest.testOutput(Unknown Source)
+	at main.java.prog2.P19_NextDateTest.testEndOfYear(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testEndOfMonth took 0,002 sec
+	FAILED
+Expected output not found.
+Expected: "1/5/2023"
+Actual: ""
+junit.framework.AssertionFailedError: Expected output not found.
+Expected: "1/5/2023"
+Actual: ""
+	at main.java.prog2.P19_NextDateTest.testOutput(Unknown Source)
+	at main.java.prog2.P19_NextDateTest.testEndOfMonth(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testRegularDate took 0,003 sec
+	FAILED
+Expected output not found.
+Expected: "6/6/2023"
+Actual: ""
+junit.framework.AssertionFailedError: Expected output not found.
+Expected: "6/6/2023"
+Actual: ""
+	at main.java.prog2.P19_NextDateTest.testOutput(Unknown Source)
+	at main.java.prog2.P19_NextDateTest.testRegularDate(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testMiddleOfMonth took 0,003 sec
+	FAILED
+Expected output not found.
+Expected: "16/8/2022"
+Actual: ""
+junit.framework.AssertionFailedError: Expected output not found.
+Expected: "16/8/2022"
+Actual: ""
+	at main.java.prog2.P19_NextDateTest.testOutput(Unknown Source)
+	at main.java.prog2.P19_NextDateTest.testMiddleOfMonth(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

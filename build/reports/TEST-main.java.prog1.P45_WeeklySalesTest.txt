@@ -1,0 +1,10 @@
+Testsuite: main.java.prog1.P45_WeeklySalesTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0,316 sec
+
+Testcase: testWeeklySalesOutputFormatAndRange took 0,023 sec
+	FAILED
+Expected 8 lines of output (7 days + total), but got: 1 expected:<8> but was:<1>
+junit.framework.AssertionFailedError: Expected 8 lines of output (7 days + total), but got: 1 expected:<8> but was:<1>
+	at main.java.prog1.P45_WeeklySalesTest.testWeeklySalesOutputFormatAndRange(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

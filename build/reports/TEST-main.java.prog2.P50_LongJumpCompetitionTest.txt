@@ -1,0 +1,21 @@
+Testsuite: main.java.prog2.P50_LongJumpCompetitionTest
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0,232 sec
+
+Testcase: testSortByBestMark took 0,035 sec
+	FAILED
+Expected: "103", but got: "101" expected:<103> but was:<101>
+junit.framework.AssertionFailedError: Expected: "103", but got: "101" expected:<103> but was:<101>
+	at main.java.prog2.P50_LongJumpCompetitionTest.testSortByBestMark(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testSortByDorsal took 0,003 sec
+	FAILED
+Expected: "101", but got: "105" expected:<101> but was:<105>
+junit.framework.AssertionFailedError: Expected: "101", but got: "105" expected:<101> but was:<105>
+	at main.java.prog2.P50_LongJumpCompetitionTest.testSortByDorsal(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+

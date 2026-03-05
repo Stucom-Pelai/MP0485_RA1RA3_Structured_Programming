@@ -1,0 +1,82 @@
+Testsuite: main.java.prog2.P30_CountingTest
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0,279 sec
+
+Testcase: testCountingToFive took 0,062 sec
+	FAILED
+Full output mismatch.
+Expected:
+0
+1
+2
+3
+4
+5
+But got:
+ expected:<[0
+1
+2
+3
+4
+5]> but was:<[]>
+junit.framework.AssertionFailedError: Full output mismatch.
+Expected:
+0
+1
+2
+3
+4
+5
+But got:
+ expected:<[0
+1
+2
+3
+4
+5]> but was:<[]>
+	at main.java.prog2.P30_CountingTest.testOutput(Unknown Source)
+	at main.java.prog2.P30_CountingTest.testCountingToFive(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testCountingToZero took 0,003 sec
+	FAILED
+Full output mismatch.
+Expected:
+0
+But got:
+ expected:<[0]> but was:<[]>
+junit.framework.AssertionFailedError: Full output mismatch.
+Expected:
+0
+But got:
+ expected:<[0]> but was:<[]>
+	at main.java.prog2.P30_CountingTest.testOutput(Unknown Source)
+	at main.java.prog2.P30_CountingTest.testCountingToZero(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testNegativeNumber took 0,002 sec
+Testcase: testCountingToOne took 0,004 sec
+	FAILED
+Full output mismatch.
+Expected:
+0
+1
+But got:
+ expected:<[0
+1]> but was:<[]>
+junit.framework.AssertionFailedError: Full output mismatch.
+Expected:
+0
+1
+But got:
+ expected:<[0
+1]> but was:<[]>
+	at main.java.prog2.P30_CountingTest.testOutput(Unknown Source)
+	at main.java.prog2.P30_CountingTest.testCountingToOne(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+

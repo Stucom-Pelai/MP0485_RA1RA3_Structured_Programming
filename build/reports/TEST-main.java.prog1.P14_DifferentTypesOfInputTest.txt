@@ -1,0 +1,24 @@
+Testsuite: main.java.prog1.P14_DifferentTypesOfInputTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0,27 sec
+
+Testcase: testDifferentTypesInputOutput took 0,05 sec
+	FAILED
+expected:<[Give a string:
+Give an integer:
+Give a double:
+Give a boolean:
+You gave the string Hello World
+You gave the integer 123
+You gave the double 3.14
+You gave the boolean true]> but was:<[]>
+junit.framework.AssertionFailedError: expected:<[Give a string:
+Give an integer:
+Give a double:
+Give a boolean:
+You gave the string Hello World
+You gave the integer 123
+You gave the double 3.14
+You gave the boolean true]> but was:<[]>
+	at main.java.prog1.P14_DifferentTypesOfInputTest.testDifferentTypesInputOutput(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

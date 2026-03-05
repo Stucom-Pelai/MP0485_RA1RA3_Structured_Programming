@@ -1,0 +1,10 @@
+Testsuite: main.java.prog1.P39_EligibleForDiscountTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0,213 sec
+
+Testcase: testEligibleForDiscount took 0,034 sec
+	FAILED
+Failed for input: true 100.00 expected:<[true]> but was:<[]>
+junit.framework.AssertionFailedError: Failed for input: true 100.00 expected:<[true]> but was:<[]>
+	at main.java.prog1.P39_EligibleForDiscountTest.testEligibleForDiscount(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+

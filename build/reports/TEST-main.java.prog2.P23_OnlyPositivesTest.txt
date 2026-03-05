@@ -1,0 +1,45 @@
+Testsuite: main.java.prog2.P23_OnlyPositivesTest
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0,24 sec
+
+Testcase: testMixedInputs took 0,042 sec
+	FAILED
+Expected output not found: "Give a number:"
+Actual output:
+
+junit.framework.AssertionFailedError: Expected output not found: "Give a number:"
+Actual output:
+
+	at main.java.prog2.P23_OnlyPositivesTest.testOutput(Unknown Source)
+	at main.java.prog2.P23_OnlyPositivesTest.testMixedInputs(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testNegativeNumber took 0,002 sec
+	FAILED
+Expected output not found: "Give a number:"
+Actual output:
+
+junit.framework.AssertionFailedError: Expected output not found: "Give a number:"
+Actual output:
+
+	at main.java.prog2.P23_OnlyPositivesTest.testOutput(Unknown Source)
+	at main.java.prog2.P23_OnlyPositivesTest.testNegativeNumber(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+Testcase: testPositiveNumbers took 0,003 sec
+	FAILED
+Expected output not found: "Give a number:"
+Actual output:
+
+junit.framework.AssertionFailedError: Expected output not found: "Give a number:"
+Actual output:
+
+	at main.java.prog2.P23_OnlyPositivesTest.testOutput(Unknown Source)
+	at main.java.prog2.P23_OnlyPositivesTest.testPositiveNumbers(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+

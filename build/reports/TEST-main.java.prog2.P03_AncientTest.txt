@@ -1,0 +1,19 @@
+Testsuite: main.java.prog2.P03_AncientTest
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0,262 sec
+
+Testcase: testNoOutputForYear2015 took 0,019 sec
+Testcase: testPrintAncientForYearBefore2015 took 0,019 sec
+	FAILED
+Expected output to contain 'Ancient history!'
+junit.framework.AssertionFailedError: Expected output to contain 'Ancient history!'
+	at main.java.prog2.P03_AncientTest.testPrintAncientForYearBefore2015(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testPrintAncientForYearFarPast took 0,002 sec
+	FAILED
+Expected output to contain 'Ancient history!'
+junit.framework.AssertionFailedError: Expected output to contain 'Ancient history!'
+	at main.java.prog2.P03_AncientTest.testPrintAncientForYearFarPast(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+
+Testcase: testNoOutputForYearAfter2015 took 0,002 sec
