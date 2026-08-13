@@ -20,12 +20,15 @@ public class P49_ProfitMargin {
         final double MARKETING_COST = 2.0;  
         final double DISCOUNT_RATE = 0.12;  
         
-        // Write your program here
-        // Calculate selling price after applying the discount        
+        // Fix the program to get the expected output
+        // Calculate selling price after applying the discount
+        double discountedSellingPrice = SHIPPING_COST * (1 - DISCOUNT_RATE);
 
         // Calculate profit margin based on cost price and discounted selling price
+        double profitMargin = ((discountedSellingPrice - MARKETING_COST) / discountedSellingPrice) * 100;
 
         // Print profit margin formatted to 2 decimal places
+        System.out.println(String.format(Locale.US, "Profit margin: %.1f%%\n", profitMargin));
     }
 
 }

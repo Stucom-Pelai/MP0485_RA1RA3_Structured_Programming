@@ -13,8 +13,16 @@ public class P47_TotalEarnings {
 
     public static void main(String[] args) {
 
-        // Write your program here
-        // Hint: Calculate total earnings from salary and bonus
+        // Fix the program to get the expected output
+        double baseSalary = 2500.00;
+        double monthlySales = 40000.00;
+        double commissionRate = 0.07;
+        double healthBenefit = 300.00;
+
+        double commission = monthlySales % commissionRate;
+        double totalEarnings = commission + healthBenefit;
+
+        System.out.printf(Locale.US, "Total earnings: %.2f$\n", totalEarnings);
         
     }
 }
